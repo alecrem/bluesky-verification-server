@@ -1,0 +1,11 @@
+name = "karawapo-alecrem-com"
+main = "src/index.ts"
+compatibility_date = "2024-11-29"
+
+routes = [
+  { pattern = "karawapo.alecrem.com", custom_domain = true }
+]
+
+[vars]
+BSKY_DID = "did:plc:h4rnbdanbl3u2czpvkbve2se"
+REDIRECT_URL = "https://alecrem.com/"
