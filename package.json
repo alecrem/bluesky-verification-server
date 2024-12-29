@@ -1,5 +1,5 @@
 {
-  "name": "karawapo.alecrem.com",
+  "name": "bluesky-verification-server",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify"

@@ -51,7 +51,6 @@ You will want to change the contents of some files:
   - Paste your desired Bluesky handle here: `pattern = "karawapo.alecrem.com"`
   - `BSKY_DID`: the DID string you got from Bluesky
   - `REDIRECT_URL`: the URL you want to direct requests to `/` to
-- `package.json`: feel free to change the package's `name`
 
 ### Install dependencies and run local server
 
