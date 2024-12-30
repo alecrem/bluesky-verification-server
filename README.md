@@ -44,13 +44,12 @@ It responds to two HTTPS routes:
 
 ### Make it yours
 
-You will want to change the contents of some files:
+You will want to change the contents of `wrangler.toml`:
 
-- `wrangler.toml`
-  - Give the Cloudflare Worker a name of your choice: `name = "karawapo-alecrem-com"`
-  - Paste your desired Bluesky handle here: `pattern = "karawapo.alecrem.com"`
-  - `BSKY_DID`: the DID string you got from Bluesky
-  - `REDIRECT_URL`: the URL you want to direct requests to `/` to
+- Give the Cloudflare Worker a name of your choice: `name = "karawapo-alecrem-com"`
+- Paste your desired Bluesky handle here: `pattern = "karawapo.alecrem.com"`
+- `BSKY_DID`: the DID string you got from Bluesky
+- `REDIRECT_URL`: the URL you want to direct requests to `/` to
 
 ### Install dependencies and run local server
 
@@ -68,7 +67,7 @@ pnpm run dev
 pnpm run deploy
 ```
 
-- You will need to log into your Cloudflare account)
+- You will need to log into your Cloudflare account
 - You can change your code and deploy as often as you need to
 
 ### Set up a custom domain for your worker
